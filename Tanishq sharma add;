@@ -1,0 +1,22 @@
+#include<stdio.h>
+#include<conio.h>
+int addition()
+{
+int n[4];
+int i,sum;
+printf("\nenter the numbers:");
+for(i=0;i<4;i++)
+{
+scanf("%d",&n[i]);
+}
+for(i=0;i<4;i++)
+{
+sum=sum+n[i];
+}
+printf("\nthe sum of the numbers is:%d",sum);
+}
+
+int main()
+{
+addition();
+}
